@@ -96,7 +96,7 @@ header{
     font-style: normal;
     font-weight: 900;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    line-height: 88px; /* 137.5% */
+    line-height: 88px; 
     letter-spacing: 7.04px;
     }
 .party-body{
@@ -104,7 +104,7 @@ header{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     
