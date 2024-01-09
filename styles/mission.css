@@ -41,6 +41,7 @@ header{
     /* text-align: center; */
 }
 .title{
+    margin-top:20px ;
     text-align: center;
 }
 /* main area */
@@ -73,7 +74,6 @@ header{
     margin: auto;
     
 }
-/* midnight party */
 .head-title{
     margin: auto;
     margin-top:35px ;
@@ -154,4 +154,180 @@ header{
     color: azure;
     border-radius: 8px;
     padding: 10px 16px;
+    }
+    .portfolio{
+        width: 1320px;
+        margin: auto;
+    }
+    .port-title{
+        display: block;
+    }
+    .best{
+        color: #F00;
+    }
+    .port-title>h2{
+        font-size: 36px;
+    }
+    .port-description{
+        color:black;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 160% */
+        width: 45%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .product-img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+    .product{
+        width: 430px;
+        height: 450px;
+        flex-shrink: 0;
+        margin: 4px 4px;
+    }
+    .ybag{
+        box-sizing: border-box;
+        background: url(../images/Rectangle\ 3.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 21px; 
+    }
+    .bbag{
+        box-sizing: border-box;
+        background: url(../images/Rectangle\ 4.png);
+        background-repeat:no-repeat ;
+        background-size: contain;
+       margin-bottom: 21px; 
+    }
+    .rshoe{
+        box-sizing: border-box;
+        background: url(../images/Rectangle\ 5.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 21px; 
+    }
+    .wshoe{
+        box-sizing: border-box;
+        background: url(../images/Rectangle\ 6.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 21px; 
+      
+    }
+    .sungls{
+        box-sizing: border-box;
+        background: url(../images/Rectangle\ 7.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 21px; 
+    }
+    .ring{
+        box-sizing: border-box;
+        background: url(../images/Rectangle\ 8.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 21px; 
+    }
+    .subscribe{
+        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        width: 1320px;
+        height: 615px;
+        border-radius: 16px;
+        background: rgba(255, 0, 0, 0.05);
+        flex-shrink: 0;
+    }
+    .sub-up{
+        width: 650px;
+        margin: auto;
+    }
+    .sub-up> .img-div{
+        margin: auto;
+        width: 150px;
+    }
+    .subscribe-title{
+        color: #070211;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 900;
+        text-transform: capitalize;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        line-height: normal;
+    }
+    .sub-description{
+        text-align: center;
+        color: rgba(7, 2, 17, 0.60);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        line-height: 32px; 
+    }
+    .email{
+        display: flex;
+        justify-content: center;
+    }
+    #user-email{
+        background: #FFF;
+        width: 648px;
+        height: 66px;
+        padding-left: 30px;
+        border: 1px solid #FFF;
+        border-radius: 50px 0 0 50px;
+    }
+    .email>button{
+        color: white;
+        background: #F00;
+        width: 210px;
+        height: 72px;
+        border-radius: 0px 50px 50px 0px;
+        border: none;
+    }
+    footer{
+        color:white ;
+        width: 100%;
+        height: 609px;
+        background-color: black;
+        flex-shrink: 0;
+    }    
+    .footer{
+        margin: auto;
+        width: 1320px;
+    }
+    
+    .foot-top{
+        display: flex;
+        justify-content: space-between;
+    }
+    .foot-add{
+        margin: 120px 0 0 140px;
+    }
+    .contact{
+        margin: 120px 120px 120px 0;
+    }
+    .mid{
+        width: 250px;
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+    .mid>img{
+        margin-right: 10px;
+    }
+    .foot-bottom{
+        display: flex;
+        justify-content: space-between;
+    }
+    .alright{
+        margin: 120px 0 0 140px;
+    }
+    .unsub{
+    
+        margin: 120px 120px 120px 0;
     }
